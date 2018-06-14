@@ -1,0 +1,67 @@
+ActParamList ::= ) 
+ActParamMore ::= ) 
+AddOp ::= ( ID INTC 
+ArrayType ::= ; ID 
+AssCall ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+AssignmentRest ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+BaseType ::= ; ID 
+CallStmRest ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+CmpOp ::= ( ID INTC 
+ConditionalStm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+DeclarePart ::= BEGIN 
+Exp ::= ( ) , . ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+Factor ::= ( ) * + , - . / ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+FidMore ::= ) ; ARRAY CHAR ID INTEGER RECORD VAR 
+FieldDecList ::= END 
+FieldDecMore ::= END 
+FieldVar ::= ( ) * + , - . / := ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+FieldVarMore ::= ( ) * + , - . / := ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+FormList ::= ) ; ARRAY CHAR ID INTEGER RECORD VAR 
+IdList ::= ; 
+IdMore ::= ; 
+InputStm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+Invar ::= ) 
+LoopStm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+Low ::= .. 
+MultOp ::= ( ID INTC 
+OtherFactor ::= ( ) + , - . ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+OtherRelE ::= DO THEN 
+OtherTerm ::= ( ) , . ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+OutputStm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+Param ::= ) ; ARRAY CHAR ID INTEGER RECORD VAR 
+ParamDecList ::= ) 
+ParamList ::= ) 
+ParamMore ::= ) 
+ProcBody ::= BEGIN PROCDECLARATION 
+ProcDec ::= BEGIN 
+ProcDecMore ::= BEGIN 
+ProcDecPart ::= BEGIN 
+ProcDecpart ::= BEGIN 
+ProcName ::= ( 
+Program ::= # 
+ProgramBody ::= . BEGIN PROCDECLARATION 
+ProgramHead ::= # PROCEDURE TYPE VAR 
+ProgramName ::= # PROCEDURE TYPE VAR 
+RecType ::= ; ID 
+RelExp ::= DO THEN 
+ReturnStm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+Stm ::= ( . ; ELSE END ENDWH FI ID IF INTC READ RETURN WHILE WRITE [ ] 
+StmList ::= ELSE END ENDWH FI 
+StmMore ::= ELSE END ENDWH FI 
+StructureType ::= ; ID 
+Term ::= ( ) + , - . ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+Top ::= ] 
+TypeDec ::= BEGIN VAR 
+TypeDecList ::= BEGIN VAR 
+TypeDecMore ::= BEGIN VAR 
+TypeDecpart ::= BEGIN VAR 
+TypeDef ::= ; ID 
+TypeId ::= = 
+VarDec ::= BEGIN PROCEDURE 
+VarDecList ::= BEGIN PROCEDURE 
+VarDecMore ::= BEGIN PROCEDURE 
+VarDecpart ::= BEGIN PROCEDURE 
+VarIdList ::= ; 
+VarIdMore ::= ; 
+VariMore ::= ( ) * + , - . / := ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 
+Variable ::= ( ) * + , - . / ; < = DO ELSE END ENDWH FI ID IF INTC READ RETURN THEN WHILE WRITE [ ] 

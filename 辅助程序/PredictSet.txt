@@ -1,0 +1,67 @@
+Program        ::= PROGRAM |
+ProgramHead    ::= PROGRAM |
+ProgramName    ::= ID |
+DeclarePart    ::= TYPE VAR PROCEDURE BEGINN |
+TypeDecpart    ::= VAR PROCEDURE BEGIN | TYPE |
+TypeDec        ::= TYPE |
+TypeDecList    ::= ID |
+TypeDecMore    ::= VAR PROCEDURE BEGIN | TID |
+TypeId         ::= ID |
+TypeDef        ::= INTEGER CAHR | ARRAY RECORD | ID |
+BaseType       ::= INTEGER | CHAR |
+StructureType  ::= ARRAY | RECORD |
+ArrayType      ::= ARRAY |
+Low            ::= INTC |
+Top            ::= INTC |
+RecType        ::= RECORD |
+FieldDecList   ::= INTEGER CAHR | ARRAY |
+FieldDecMore   ::= END | INTEGER CHAR ARRAY |
+IdList         ::= ID  |
+IdMore         ::= ; | , |
+VarDecpart     ::= PROCEDURE BEGIN | VAR |
+VarDec         ::= VAR  |
+VarDecList     ::= INTEGER CHAR ARRAY RECORD ID |
+VarDecMore     ::= PROCEDURE BEGIN | INTEGER CHAR ARRAY RECORD ID |
+VarIdList      ::= ID |
+VarIdMore      ::= ; | , |
+ProcDecpart    ::= BEGIN | PROCEDURE |
+ProcDec        ::= PROCEDURE |
+ProcDecMore    ::= BEGIN | PROCEDURE |
+ProcName       ::= ID |
+ParamList      ::= ) | INTEGER CHAR ARRAY RECORD ID VAR |
+ParamDecList   ::= INTEGER CHAR ARRAY RECORD ID VAR |
+ParamMore      ::= ) | ; |
+Param          ::= INTEGER CHAR ARRAY RECORD ID VAR | VAR |
+FormList       ::= ID |
+FidMore        ::= ; ) | , |
+ProcDecPart    ::= TYPE VAR PROCEDURE BEGIN |
+ProcBody       ::= BEGIN |
+ProgramBody    ::= BEGIN |
+StmList        ::= ID IF WHILE RETURN READ WRITE |
+StmMore        ::= ELSE FI END ENDWH | ; |
+Stm            ::= IF | WHILE | READ | WRITE | RETURN | ID |
+AssCall        ::= := [ . | ( |
+AssignmentRest ::= [ . := |
+ConditionalStm ::= IF |
+LoopStm        ::= WHILE |
+InputStm       ::= READ |
+Invar          ::= ID |
+OutputStm      ::= WRITE |
+ReturnStm      ::= RETURN |
+CallStmRest    ::= ( |
+ActParamList   ::= ) | ( INTC ID |
+ActParamMore   ::= ) | , |
+RelExp         ::= ( INTC ID |
+OtherRelE      ::= < = |
+Exp            ::= ( INTC ID |
+OtherTerm      ::= < = ] THEN ELSE FI DO ENDWH ) END ; , | + - |
+Term           ::= ( INTC ID |
+OtherFactor    ::= + - < = ] THEN ELSE FI DO ENDWH ) END ; , | * / |
+Factor         ::= ( | INTC | ID |
+Variable       ::= ID |
+VariMore       ::= := * / + - < = THEN ELSE FI DO ENDWH ) END ; , ] | [ | . |
+FieldVar       ::= ID |
+FieldVarMore   ::= := * / + - < = THEN ELSE FI DO ENDWH ) END ; , | [ |
+CmpOp          ::= < | = |
+AddOp          ::= + | - |
+MultOp         ::= * | / |
